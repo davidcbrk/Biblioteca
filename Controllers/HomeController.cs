@@ -31,18 +31,18 @@ namespace Biblioteca.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login(string login, string senha)
+        public IActionResult Login(string Login, string Senha)
         {
-            if (login != "admin" || senha != "123")
+            if (Autenticacao.verificaLoginSenha(Login, Senha, this))
             {
-                ViewData["Erro"] = "Senha inválida";
-                return View();
+                return RedirectToAction("index");
             }
             else
             {
-                HttpContext.Session.SetString("user", "admin");
-                return RedirectToAction("Index");
+                ViewData["erro"] = "Senha invalida";
+                return View();
             }
+
         }
 
         public IActionResult Privacy()

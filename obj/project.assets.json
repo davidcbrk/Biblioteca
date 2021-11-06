@@ -850,11 +850,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\crist\\Desktop\\Pc gamer\\Curso\\atividade 1 uc07\\Biblioteca\\Biblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\crist\\Desktop\\Pc gamer\\Curso\\atividade 2 uc 07 v2\\Biblioteca\\Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "C:\\Users\\crist\\Desktop\\Pc gamer\\Curso\\atividade 1 uc07\\Biblioteca\\Biblioteca.csproj",
+      "projectPath": "C:\\Users\\crist\\Desktop\\Pc gamer\\Curso\\atividade 2 uc 07 v2\\Biblioteca\\Biblioteca.csproj",
       "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\crist\\Desktop\\Pc gamer\\Curso\\atividade 1 uc07\\Biblioteca\\obj\\",
+      "outputPath": "C:\\Users\\crist\\Desktop\\Pc gamer\\Curso\\atividade 2 uc 07 v2\\Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config"
